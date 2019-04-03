@@ -6,6 +6,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {App} from './App'
 
+import './index.css';
+
 // get div element
 // get real dom for root, div element
 const root = document.getElementById('root');
