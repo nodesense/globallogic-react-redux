@@ -11,6 +11,7 @@ import {About} from './components/About';
 import {Contact} from './components/Contact';
 import {Header} from './components/Header';
 import {Footer} from './components/Footer';
+import {Checkout} from './components/Checkout';
 
 // class component
 export class App extends React.Component {
@@ -31,6 +32,7 @@ export class App extends React.Component {
                 <Home startValue={100} />
                 <About />
                 <Contact />
+                <Checkout />
 
                 <Footer />
                
