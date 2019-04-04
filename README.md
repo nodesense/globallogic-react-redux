@@ -12,6 +12,41 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
+SPA - Single PAge Application
+
+localhost:3000/  --  default page is home Home Componnent
+example.com/about ==> About component  
+www.example.com/contact Contact Comp
+    /products ProductList Component
+    /cart
+    /counter
+    /checkout
+
+Navigation System
+Components 
+Nav => Component 
+Links to visit one page to another page
+Placeholder - Where to show the content
+404? Page Not Found
+Redirect - from page 1 to page 2
+
+Back/Forward/Refresh/load first time
+
+
+JavaScript - ES5, ES6, ES7...ES.NEXT..
+    React Router DOM is a JavaScript project
+
+JavaScript [ES5, ES6, ES7...ES.NEXT.] + TypeScript
+    We want to use in TypeScript
+
+    Eco System
+    Definitely Typed - open source group
+    @types/react-router-dom
+
+/
+example.com/about
+*
+
 ## Available Scripts
 
 In the project directory, you can run:
