@@ -47,6 +47,49 @@ JavaScript [ES5, ES6, ES7...ES.NEXT.] + TypeScript
 example.com/about
 *
 
+
+<div>
+ <p> Counter : {this.state.counter} </p>
+</div>
+
+--
+render() ==> return virtual dom
+
+
+Prev. V.DOM = undefined
+
+V.DOM V1 = <div>
+            <p> Counter : 0 </p>
+            </div>
+
+
+DIFF = <div>
+            <p> Counter : 0 </p>
+        </div>
+
+APPLY DIFF to REAL DOM
+
+
+Prev. V.DOM = <div>
+            <p> Counter : 0 </p>
+            </div>
+----
+
+increment () => setState (counter: 1)
+
+render() ==> return virtual dom
+
+V.DOM 2 => <div>
+                <p> Counter : 1 </p>
+            </div>
+
+
+
+DIFF = <p> Counter : 1 </p>
+        
+PATCH <p> Counter : 1 </p> to real dom
+
+
 ## Available Scripts
 
 In the project directory, you can run:

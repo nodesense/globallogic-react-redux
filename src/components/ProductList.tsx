@@ -56,6 +56,7 @@ export class ProductList
                     <table>
                         <thead>
                             <tr>
+                                 <th></th>
                                 <th>Name</th>
                                 <th>Price</th>
                                 <th>Year</th>
@@ -67,6 +68,12 @@ export class ProductList
                                 this.state.products
                                           .map (product => (
                                               <tr key={product.id}>
+                                                <td>
+                                                    <img src="/assets/android-tablet.png" 
+                                                         width="64"
+                                                         height="64"
+                                                    />
+                                                </td>
                                                  <td>{product.name}</td>
                                                  <td>{product.price}</td>
                                                  <td>{product.year}</td>

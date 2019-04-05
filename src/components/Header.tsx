@@ -25,6 +25,11 @@ export function Header() {
                 Products
             </NavLink>
 
+            <NavLink to="/cart" className='button'
+                            activeClassName='success' >
+                Cart
+            </NavLink>
+
             <NavLink to="/contact" className='button'
                             activeClassName='success' >
                 Contact

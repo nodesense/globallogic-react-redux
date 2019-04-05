@@ -28,9 +28,14 @@ export class App extends React.Component {
     // MUST render function 
     //react keyword
 
+    refreshApp = () => {
+        this.forceUpdate();
+    }
+
     // returns a Virtual DOM
     // render function is called by react 
     render() {
+        console.log('App render');
         // TSX - TypeScript + XML
         // Include XML inside the TS file
         return (
@@ -54,6 +59,9 @@ export class App extends React.Component {
               
                 <Footer />
 
+                <button onClick={this.refreshApp}>
+                    Refresh App
+                </button>
           
                
             </div>
